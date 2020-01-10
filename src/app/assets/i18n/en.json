@@ -1,0 +1,7 @@
+{
+    "demo": {
+        "title": "Welcome",
+        "text": "Welcome test",
+        "greeting": "Hello {{name}}!"
+    }
+}

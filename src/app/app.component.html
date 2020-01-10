@@ -1,0 +1,12 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p><button (click)="useLanguage('en')">en</button>
+<button (click)="useLanguage('de')">de</button>
+<p>{{ 'demo.greeting' | translate:{'name':name} }}</p>
+
+<!-- translation: directive (key as attribute) -->
+<p [translate]="'demo.greeting'" [translateParams]="{name: 'Andreas'}"></p>
+
+<!-- translation: directive (key as content of element)-->
+<p translate [translateParams]="{name: 'Andreas'}">demo.greeting</p>
