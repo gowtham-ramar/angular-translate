@@ -1,6 +1,5 @@
 {
-    "demo": {
-     
+    "demo": {     
         "greeting": "வணக்கம் {{name}}!"
     }
 }

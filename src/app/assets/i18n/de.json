@@ -1,5 +1,0 @@
-{
-    "demo": {
-        "greeting": "Hallo {{name}}!"
-    }
-}
